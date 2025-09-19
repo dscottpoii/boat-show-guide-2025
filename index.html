@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get the insider's guide to the 2025 US Boat Show. Avoid costly mistakes, get better deals, and navigate like a pro with our free Dos & Don'ts guide.">
+    <meta name="keywords" content="boat show, yacht, sailboat, powerboat, marine, boating guide, boat buying">
+    <meta property="og:title" content="FREE Guide: Master the 2025 US Boat Show">
+    <meta property="og:description" content="Insider secrets that separate smart buyers from everyone else. Download your free Dos & Don'ts guide now.">
+    <meta property="og:image" content="./assets/images/boat-hero.jpg">
+    <meta property="og:url" content="https://yourusername.github.io/boat-show-guide-2025">
+    <title>Free Guide: 2025 US Boat Show Dos & Don'ts</title>
+    
+    <!-- Inline CSS for faster loading -->
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="rgba(255,255,255,0.1)" points="0,0 1000,300 1000,1000 0,700"/></svg>');
+            z-index: 1;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            z-index: 2;
+            position: relative;
+        }
+
+        .hero-text {
+            color: white;
+        }
+
+        .hero-text h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            line-height: 1.1;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero-text .subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .highlight {
+            color: #FFD700;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .benefits {
+            list-style: none;
+            margin: 30px 0;
+        }
+
+        .benefits li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        .benefits li::before {
+            content: '⚓';
+            margin-right: 15px;
+            font-size: 1.3rem;
+            filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.3));
+        }
+
+        .urgency {
+            background: rgba(255, 215, 0, 0.2);
+            border: 2px solid #FFD700;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+            color: white;
+            font-size: 1.1rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        .social-proof {
+            margin-top: 40px;
+        }
+
+        .testimonial {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .testimonial p {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .testimonial span {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            font-weight: 500;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .stats span {
+            flex: 1;
+            padding: 10px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            margin: 0 5px;
+            backdrop-filter: blur(10px);
+        }
+
+        .stats strong {
+            display: block;
+            font-size: 1.3rem;
+            color: #FFD700;
+        }
+
+        .member-preview {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .member-preview p {
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .member-preview a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        /* Form Card */
+        .form-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            transform: translateY(0);
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .form-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+
+        .form-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .form-card h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .form-card .form-subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102,126,234,0.1);
+        }
+
+        .cta-button {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102,126,234,0.3);
+        }
+
+        .cta-button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-loading {
+            display: none;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .spinner {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .trust-indicators {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 25px;
+            color: #666;
+            font-size: 0.9rem;
+            flex-wrap: wrap;
+        }
+
+        .trust-indicators span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 8px 12px;
+            background: #f8f9fa;
+            border-radius: 20px;
+            border: 1px solid #e9ecef;
+        }
+
+        .guarantee {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+
+        /* Exit Intent Modal */
+        .modal {
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: none;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 40px;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+            text-align: center;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #333;
+        }
+
+        .mini-form {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .mini-form input {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            min-width: 250px;
+        }
+
+        .mini-cta {
+            padding: 15px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .mini-cta:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0,0,0,0.1);
+            color: white;
+            padding: 30px 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #FFD700;
+        }
+
+        .footer-text {
+            text-align: right;
+        }
+
+        .footer-text p {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* Animations */
+        .float-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Waves Animation */
+        .waves {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"><path d="M0,60 C300,120 600,0 900,60 C1050,90 1200,30 1200,60 L1200,120 L0,120 Z" fill="rgba(255,255,255,0.1)"/></svg>') repeat-x;
+            animation: wave 6s ease-in-out infinite;
+        }
+
+        @keyframes wave {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(-50px); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-text .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .form-card {
+                padding: 30px 20px;
+                margin: 20px 0;
+            }
+
+            .trust-indicators {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-text {
+                text-align: center;
+            }
+
+            .mini-form {
+                flex-direction: column;
+            }
+
+            .mini-form input {
+                min-width: auto;
+            }
+
+            .modal-content {
+                margin: 20% auto;
+                padding: 30px 20px;
+                width: 95%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-text h1 {
+                font-size: 2rem;
+            }
+
+            .benefits li {
+                font-size: 1rem;
+            }
+
+            .form-card h2 {
+                font-size: 1.5rem;
+            }
+
+            .cta-button {
+                font-size: 1rem;
+                padding: 16px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            .hero {
+                background: white !important;
+                color: black !important;
+                min-height: auto;
+            }
+
+            .form-card {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+
+            .modal, .waves {
+                display: none;
+            }
+        }
+    </style>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_GA_ID');
+    </script>
+    
+    <!-- Facebook Pixel -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID');
+        fbq('track', 'PageView');
+    </script>
+    
+    <!-- Schema.org markup for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "2025 US Boat Show Dos & Don'ts Guide",
+        "description": "Free insider guide to mastering boat shows and saving thousands on boat purchases",
+        "brand": "Boat Smart",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Master the <span class="highlight">2025</span><br>US Boat Show</h1>
+                    <p class="subtitle">Get the insider secrets that separate smart buyers from everyone else</p>
+                    
+                    <ul class="benefits">
+                        <li>Avoid costly rookie mistakes that waste time & money</li>
+                        <li>Navigate like a pro with our exclusive show map strategy</li>
+                        <li>Negotiate better deals with proven insider tactics</li>
+                        <li>Skip the crowds with optimal timing recommendations</li>
+                        <li>Spot quality boats vs. marketing hype instantly</li>
+                        <li>Access VIP areas most visitors never see</li>
+                    </ul>
+
+                    <div class="urgency">
+                        <strong>⏰ Limited Time:</strong> Show season starts soon. Get prepared now!
+                    </div>
+
+                    <div class="social-proof">
+                        <div class="testimonial">
+                            <p><em>"This guide saved me $15,000 on my yacht purchase. The negotiation tips alone were worth gold!"</em></p>
+                            <span>- Captain Sarah M., 42' Catalina Owner</span>
+                        </div>
+                        <div class="stats">
+                            <span><strong>4,247+</strong> Downloads</span>
+                            <span><strong>98%</strong> Success Rate</span>
+                            <span><strong>$12K</strong> Avg. Savings</span>
+                        </div>
+                        
+                        <div class="member-preview">
+                            <p>
+                                💡 <strong>Want More?</strong> Join 2,800+ smart boaters getting our premium monthly newsletter with exclusive deals, maintenance guides, and insider tips.
+                            </p>
+                            <a href="./membership.html">
+                                Learn about Boat Smart Members Club →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-card float-animation">
+                    <h2>Get Your FREE Guide</h2>
+                    <p class="form-subtitle">Join 4,247+ savvy boaters who already downloaded this insider guide</p>
+                    
+                    <!-- REPLACE ACTION URL WITH YOUR EMAIL PLATFORM -->
+                    <!-- ConvertKit: action="https://app.convertkit.com/forms/YOUR_FORM_ID/subscriptions" -->  
+                    <!-- Mailchimp: action="https://YOUR_ACCOUNT.list-manage.com/subscribe/post?u=USER_ID&id=LIST_ID" -->
+                    <!-- Formspree: action="https://formspree.io/f/YOUR_FORM_ID" -->
+                    
+                    <form id="leadForm" action="./thank-you.html" method="GET">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="first_name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email_address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="boatType">What interests you most?</label>
+                            <select id="boatType" name="boat_type" required>
+                                <option value="">Select one...</option>
+                                <option value="sailboat">Sailboats</option>
+                                <option value="powerboat">Power Boats</option>
+                                <option value="yacht">Luxury Yachts</option>
+                                <option value="fishing">Fishing Boats</option>
+                                <option value="both">Both Sail & Power</option>
+                                <option value="accessories">Marine Accessories</option>
+                            </select>
+                        </div>
+
+                        <!-- Hidden fields for tracking -->
+                        <input type="hidden" name="source" value="boat_show_landing_2025">
+                        <input type="hidden" name="utm_source" id="utmSource">
+                        <input type="hidden" name="utm_medium" id="utmMedium">
+                        <input type="hidden" name="utm_campaign" id="utmCampaign">
+
+                        <button type="submit" class="cta-button" id="submitBtn">
+                            <span class="btn-text">Send Me The Free Guide →</span>
+                            <span class="btn-loading" style="display: none;">
+                                <svg class="spinner" width="20" height="20" viewBox="0 0 50 50">
+                                    <circle class="path" cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-dasharray="31.416" stroke-dashoffset="31.416">
+                                        <animate attributeName="stroke-dasharray" dur="2s" values="0 31.416;15.708 15.708;0 31.416" repeatCount="indefinite"/>
+                                        <animate attributeName="stroke-dashoffset" dur="2s" values="0;-15.708;-31.416" repeatCount="indefinite"/>
+                                    </circle>
+                                </svg>
+                                Sending...
+                            </span>
+                        </button>
+                    </form>
+
+                    <div class="trust-indicators">
+                        <span>🔒 100% Privacy Protected</span>
+                        <span>📧 No Spam Ever</span>
+                        <span>⚡ Instant Download</span>
+                    </div>
+
+                    <div class="guarantee">
+                        <p><small>30-day money-back guarantee. Unsubscribe anytime with one click.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="waves"></div>
+    </section>
+
+    <!-- Exit Intent Popup -->
+    <div id="exitIntentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Wait! Don't Miss Out!</h3>
+            <p>Get your FREE guide before you go. It only takes 30 seconds and could save you thousands!</p>
+            <form class="mini-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="mini-cta">Get My Free Guide</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="./privacy.html">Privacy Policy</a>
+                    <a href="./terms.html">Terms of Service</a>
+                    <a href="./membership.html">Members Club</a>
+                    <a href="mailto:support@yourboatguide.com">Contact</a>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 Boat Show Mastery. All rights reserved.</p>
+                    <p>Helping boaters make smarter decisions since 2015.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Form handling and conversion tracking
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = submitBtn.querySelector('.btn-text');
+            const btnLoading = submitBtn.querySelector('.btn-loading');
+            
+            // Show loading state
+            btnText.style.display = 'none';
+            btnLoading.style.display = 'flex';
+            submitBtn.disabled = true;
+
+            // Track conversion
+            const formData = new FormData(this);
+            trackFormSubmission(formData);
+
+            // If using GitHub Pages demo, redirect to thank you page
+            if (this.action.includes('thank-you.html')) {
+                e.preventDefault();
+                
+                // Simulate form processing
+                setTimeout(() => {
+                    const firstName = formData.get('first_name');
+                    const email = formData.get('email_address');
+                    const boatType = formData.get('boat_type');
+                    
+                    // Redirect with parameters
+                    window.location.href = `./thank-you.html?first_name=${encodeURIComponent(firstName)}&email=${encodeURIComponent(email)}&boat_type=${encodeURIComponent(boatType)}`;
+                }, 1500);
+            }
+        });
+
+        // Exit intent functionality
+        let exitIntentTriggered = false;
+        document.addEventListener('mouseleave', function(e) {
+            if (e.clientY < 50 && !exitIntentTriggered && window.innerWidth > 768) {
+                showExitIntentModal();
+                exitIntentTriggered = true;
+            }
+        });
+
+        // Close exit intent modal
+        document.querySelector('.close').addEventListener('click', hideExitIntentModal);
+        document.querySelector('#exitIntentModal').addEventListener('click', function(e) {
+            if (e.target === this) hideExitIntentModal();
+        });
+
+        // Mini form submission
+        document.querySelector('.mini-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('input[type="email"]').value;
+            
+            // Track exit intent conversion
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'exit_intent_conversion', { email: email });
+            }
+            
+            // Redirect to thank you page
+            window.location.href = `./thank-you.html?email=${encodeURIComponent(email)}&source=exit_intent`;
+        });
+
+        // UTM parameter capture
+        const urlParams = new URLSearchParams(window.location.search);
+        const utmSource = urlParams.get('utm_source');
+        const utmMedium = urlParams.get('utm_medium');
+        const utmCampaign = urlParams.get('utm_campaign');
+
+        if (utmSource) document.getElementById('utmSource').value = utmSource;
+        if (utmMedium) document.getElementById('utmMedium').value = utmMedium;
+        if (utmCampaign) document.getElementById('utmCampaign').value = utmCampaign;
+
+        // Form field animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.benefits li, .stats span').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+
+        // 3D form card effect
+        document.querySelector('.form-card').addEventListener('mousemove', function(e) {
+            const rect = this.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            
+            const rotateX = (y - centerY) / 20;
+            const rotateY = (centerX - x) / 20;
+            
+            this.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-5px)`;
+        });
+
+        document.querySelector('.form-card').addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+
+        // Functions
+        function showExitIntentModal() {
+            const modal = document.getElementById('exitIntentModal');
+            modal.style.display = 'block';
+            setTimeout(() => modal.style.opacity = '1', 10);
+            
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'exit_intent_shown');
+            }
+        }
+
+        function hideExitIntentModal() {
+            const modal = document.getElementById('exitIntentModal');
+            modal.style.opacity = '0';
+            setTimeout(() => modal.style.display = 'none', 300);
+        }
+
+        function trackFormSubmission(formData) {
+            const eventData = {
+                first_name: formData.get('first_name'),
+                boat_type: formData.get('boat_type'),
+                source: formData.get('source'),
+                utm_source: formData.get('utm_source'),
+                utm_medium: formData.get('utm_medium'),
+                utm_campaign: formData.get('utm_campaign')
+            };
+
+            // Google Analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'form_submission', eventData);
+                gtag('event', 'conversion', {
+                    'send_to': 'YOUR-GOOGLE-ADS-CONVERSION-ID'
+                });
+            }
+
+            // Facebook Pixel
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'Lead', {
+                    content_name: '2025 Boat Show Guide',
+                    content_category: 'Lead Magnet'
+                });
+            }
+        }
+
+        // Social proof animation
+        setTimeout(() => {
+            const countElement = document.querySelector('.form-subtitle');
+            if (countElement) {
+                let currentCount = 4247;
+                setInterval(() => {
+                    if (Math.random() < 0.1) {
+                        currentCount += Math.floor(Math.random() * 3) + 1;
+                        countElement.textContent = countElement.textContent.replace(/[\d,]+/, currentCount.toLocaleString());
+                    }
+                }, 30000);
+            }
+        }, 5000);
+
+        // Page tracking
+        let startTime = Date.now();
+        let maxScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+            maxScroll = Math.max(maxScroll, scrollPercent);
+        });
+
+        window.addEventListener('beforeunload', () => {
+            const timeOnPage = Math.round((Date.now() - startTime) / 1000);
+            
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'page_engagement', {
+                    'time_on_page': timeOnPage,
+                    'max_scroll_depth': maxScroll
+                });
+            }
+        });
+    </script>
+</body>
+</html>
